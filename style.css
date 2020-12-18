@@ -1,0 +1,401 @@
+body{
+    background-image: url(images/bgimg.jpeg);    
+}
+ #main{
+    position: absolute; 
+     margin-left: 50px;  
+     /* @media (max-width: 1024px) and (min-width: 721px) */ 
+}
+
+
+
+.nav-bar{
+    text-align: center;
+}
+
+.ul-one{
+    text-align: center;
+    margin-left: 170px;
+}
+
+.li-one , .li-two , .li-three , .li-four , .li-five , .li-six , .li-seven {
+    display: inline-block;
+    width: 140px;
+    height: 100px;
+    list-style-type: none; 
+    cursor: pointer;  
+    vertical-align: top;
+    text-align: bottom;
+    border-radius: 2px;   
+}
+
+.li-one{
+    border-bottom: 5px solid #898989;
+}
+
+.li-two{   
+    border-bottom: 5px solid red;
+}
+
+.li-three{
+    border-bottom: 5px solid orangered;
+}
+
+.li-four{
+    border-bottom: 5px solid rgba(224, 224, 53, 0.897);
+}
+
+.li-five{
+    border-bottom: 5px solid rgb(52, 128, 52);
+}
+
+.li-six{
+    border-bottom: 5px solid rgb(6, 137, 180);
+}
+
+.li-seven{
+    border-bottom: 5px solid rgb(50, 50, 231);
+}
+
+div ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    left: 20px;   
+}
+
+.a-one{
+    color: white;
+    padding-top: 20px;    
+}
+
+.li-one{
+    background-color: #898989;  
+}
+
+.li-two:hover{
+   background-color: red;
+}
+
+.li-three:hover{
+    background-color:orangered;
+}
+
+ .li-four:hover{
+    background-color:rgba(224, 224, 53, 0.897);
+ }
+
+ .li-five:hover{
+    background-color:rgb(52, 128, 52);
+ }
+
+ .li-six:hover{
+    background-color:rgb(6, 137, 180);
+ }
+
+ .li-seven:hover{
+    background-color:rgb(50, 50, 231);
+ }
+
+ .navicons{
+    width: 40px;
+    height: 40px;
+}
+
+                                                                /* IMAGES 1 */
+
+.img1{
+    margin-left: 210px;
+    margin-top: 15px;
+    display: fixed;
+    
+   
+}
+
+
+.img2{
+    margin-left: 20px;
+    width: 360px;
+    height:320px;
+    vertical-align: top;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.img3{
+    position:absolute;
+    top: 480px;
+    left: 865px;
+    width: 360px;
+    height:320px;
+    
+}
+
+
+.img4{
+    padding-top: 12px;
+   vertical-align: top;
+   margin-left: 210px;
+   padding-right: 13px;
+
+}
+
+.img5{
+
+    padding-left: 3px;
+    padding-top: 12px;
+
+}
+
+.img6{
+    padding-left: 20px;
+    width: 360px;
+    height: 160px;
+    margin-bottom: 25px;
+
+}
+
+.img1 , .img2 , .img3 , .img4 , .img5 , .img6 {
+    border-radius: 10px;
+    
+}
+
+
+.para1{
+    font-family:"Flexo-Demi",arial,sans-serif;
+    font-size: 22px;
+    margin-left: 210px;   
+    border: 1px solid black;
+    width: 260px;
+    height: 25px;
+    color: #919191;
+    background-color: black;
+    border-radius: 6px;
+    
+}
+
+.para-icon{
+    margin-top: -30px;
+    vertical-align: top;  
+    
+}
+
+.feat-pic1{
+    margin-left: 210px;
+    height: 400px;
+    width: 335px;
+    padding-top: -100px;
+    
+       
+}
+
+.feat-pic2 , .feat-pic3{
+    height: 400px;
+    width: 335px;  
+    
+}
+
+.para2{
+    text-align: center;
+    font-family:"Flexo-Demi",arial,sans-serif;
+    font-size: 150%;
+    font-weight: 400;
+    float: right;  
+    border: 1px solid black;
+    width: 260px;
+    height: 26px;
+    color: #fff;
+    background-color: #070505;
+    padding-left: 20px;
+    border-radius: 5px;
+   
+}
+
+.more-para{
+    text-decoration: none;
+}
+
+.more1 , .more2 , .more3{
+    padding: 10px;
+    width: 320px;
+
+}
+
+.more1{
+    margin-left: 198px;
+    
+
+}
+
+.more2{
+     padding-bottom: 80px;
+}
+
+.whats-new{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight:1px ;
+    margin-left: 554px;
+    position: relative;
+    bottom: 85px;  
+    color: rgba(172, 163, 163, 0.842); 
+    width: 250px;
+}
+
+.more4{
+    margin-left: 198px;
+}
+
+
+
+.more4, .more5 , .more6{
+    
+    width: 315px;
+    padding: 10px;
+    position: relative;
+    top: -140px;}
+
+    .more5{
+        top: -170px;
+        left: 3px;
+
+    }
+
+    
+.more6{
+    top: -201px;
+    left: 12px;
+     
+    }
+
+    .more7{
+        position: relative;
+        float: right;
+        top: -201px;
+        right: 12px;
+        width: 315px;
+
+
+    }
+
+.hr{
+    position: relative;
+    left: 250px;
+    
+}
+
+.footer-para{
+    margin-left: 275px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(240, 229, 229);
+    text-shadow: wheat;
+}
+
+ul{
+    list-style-position: inside;
+    margin-left: 240px;
+}
+.footerlinks{
+    list-style-type: square	;
+    line-height: 25px;
+}
+
+.foot-link-a{
+   color: #616161;
+   font-weight: 600;
+   font-size: 87.5%;;
+   font-family: "Roboto",arial,sans-serif;  
+}
+
+.foot-link-a:hover{
+    color: white;   
+}
+
+.vertical-line{
+    margin-top: -190px;
+    margin-left: 500px;
+    border-left: 2px solid rgb(7, 0, 0);
+    height: 180px;
+}
+
+.social{
+    position: relative;
+    left: 530px;
+    bottom: 180px;
+    
+}
+
+.social1{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.vertical-line2{
+    margin-top: -222px;
+    margin-left: 800px;
+    border-left: 2px solid rgb(7, 0, 0);
+    height: 180px;
+}
+
+.box{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 30px;
+}
+
+table{
+    position: relative;
+    left: 830px;
+    bottom: 150px;
+}
+
+.lastdiv{
+    position: relative;
+    left: 700px;
+    bottom: 285px;
+    line-height: 1.5;
+}
+
+div ul li.lastlist{
+    list-style-type:none;
+    text-decoration: underline;     
+}
+
+div ul li.lastlist a{
+    color:#525252;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.lastpara{
+    color:#525252;
+    margin-left: 129px; 
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.developer{
+    margin-left: 430px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(216, 216, 114);
+    background-color: rgb(214, 11, 11);
+    border: 2px solid rgb(26, 23, 24);
+    border-radius: 4px;
+    width: 418px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
